@@ -23,12 +23,13 @@
 //                                    |    GUI    |   LGUI    |    LWR    |          |     RSE    |    SPA   |   RCTRL   |
 //                                    -------------------------------------          -------------------------------------
                 bindings = <
-&kp TAB     &kp Q   &kp W   &kp F   &kp P   &kp B       &kp J   &kp L   &kp U       &kp Y       &kp SEMI    &kp BSPC
-&kp LCTRL   &kp A   &kp R   &kp S   &kp T   &kp G       &kp M   &kp N   &kp E       &kp I       &kp O       &kp RET
-&kp LSHFT   &kp Z   &kp X   &kp C   &kp D   &kp V       &kp K   &kp H   &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
-                            &kp LGUI    &kp LGUI    &mo 1   &kp SPACE   &mo 2   &kp RCTRL
->;
-};
+                    &kp TAB     &kp Q   &kp W   &kp F   &kp P   &kp B       &kp J   &kp L   &kp U       &kp Y       &kp SEMI    &kp BSPC
+                    &kp LCTRL   &kp A   &kp R   &kp S   &kp T   &kp G       &kp M   &kp N   &kp E       &kp I       &kp O       &kp RET
+                    &kp LSHFT   &kp Z   &kp X   &kp C   &kp D   &kp V       &kp K   &kp H   &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
+                                                &kp LGUI    &kp LGUI    &mo 1   &kp SPACE   &mo 2   &kp RCTRL
+
+                           >;
+                           };
 
                 lower_layer {
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -41,12 +42,12 @@
 //                                     |           |           |           |          |            |          |           |
 //                                     -------------------------------------          -------------------------------------
                 bindings = <
-&trans      &trans      &trans      &trans      &trans        &trans  &kp UP  &trans  &trans  &trans  &kp BSPC
-&trans      &kp RCTRL   &kp LALT    &kp LGUI    &trans        &trans  &kp LFT &kp DWN &kp RGT &trans  &trans
-&kp LSHFT   &trans      &trans      &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp LGUI    &trans  &kp SPACE       &kp RET     &trans  &kp RALT
-                                          >;
-    };
+                    &trans      &trans   &trans      &trans      &trans      &trans        &trans  &kp UP  &trans  &trans  &trans  &kp BSPC
+                    &trans      &trans   &kp LCTRL   &kp LALT    &kp LGUI    &trans        &trans  &kp LFT &kp DWN &kp RGT &trans  &trans
+                    &kp LSHFT   &trans   &trans      &trans      &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                                                            &kp LGUI    &trans  &kp SPACE       &kp RET     &trans  &kp RALT
+                           >;
+                           };
 
                 raise_layer {
 
@@ -64,11 +65,11 @@
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
-                        bindings = <
-    &kp TAB   &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT               &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR   &kp BSPC
-    &kp LCTRL &trans    &trans     &trans     &trans     &trans                  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp GRAVE
-    &kp LSHFT &trans    &trans     &trans     &trans     &trans                  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &kp TILDE
-                                 &kp LGUI    &trans     &kp SPACE               &kp RET    &trans     &kp RALT
-                              >;
-        };
+                bindings = <
+                            &kp TAB   &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT               &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR   &kp BSPC
+                            &kp LCTRL &trans    &trans     &trans     &trans     &trans                  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp GRAVE
+                            &kp LSHFT &trans    &trans     &trans     &trans     &trans                  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &kp TILDE
+                                                         &kp LGUI    &trans     &kp SPACE               &kp RET    &trans     &kp RALT
+                           >;
+                           };
 };
