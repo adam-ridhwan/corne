@@ -23,7 +23,7 @@
 
                 lower_layer {
                         bindings = <
-   &kp TAB    &none     &none     &none     &none       &none   &kp (LGUI(LALT(RBKT)) &kp (LGUI(LALT(J)) &kp (LGUI(LALT(L)) &kp (LGUI(LALT(SEMI)) &kp (LGUI(LALT(QUOT))     &kp BSPC
+   &kp TAB    &none     &none     &none     &none       &none   &kp (LG(LALT(RBKT)) &kp (LG(LALT(J)) &kp (LG(LALT(L)) &kp (LG(LALT(SEMI)) &kp (LG(LALT(QUOT))     &kp BSPC
    &none       &none     &kp LCTRL &kp LALT  &kp LGUI   &none   &none    &kp LEFT &kp DOWN  &kp UP   &kp RIGHT &kp RET
    &kp LSHFT  &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V)   &none   &none    &kp HOME &kp PGDN  &kp PGUP &kp END   &kp RSHFT
                                  &none &none  &none     &none  &none   &kp RALT
