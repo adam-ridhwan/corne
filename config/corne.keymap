@@ -14,28 +14,55 @@
 
                 base_layer {
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp QUOT &kp BSPC
-   &kp CAPS  &mt LSHFT A    &mt LCTRL R  &mt LALT S  &mt LGUI T &kp G   &kp M   &mt LGUI N  &mt LALT E    &mt LCTRL I   &mt LSHFT O    &kp RET
-   &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                   &kp LGUI &mo 1 &mo 2     &mo 3 &kp SPACE  &kp RALT
+    &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp QUOT      &kp BSPC
+    &kp CAPS      &mt LSHFT A   &mt LCTRL R   &mt LALT S   &mt LGUI T   &kp G                &kp M         &mt LGUI N    &mt LALT E    &mt LCTRL I   &mt LSHFT O   &kp RET
+    &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
+                                              &mo 4        &mo 1        &mo 2                &lt 5 BSPC    &lt 2 SPACE   &mo 3
                         >;
                 };
 
-                lower_layer {
+                navigation_layer {
                         bindings = <
-   &kp TAB    &none     &kp LG(LA(K)) &kp LG(LA(C)) &kp LG(LA(F))       &none   &kp LG(LA(RBKT)) &kp LG(LA(J)) &kp LG(LA(L)) &kp LG(LA(SEMI)) &kp LG(LA(QUOT)) &kp BSPC
-   &none       &kp LSHFT     &kp LCTRL &kp LALT  &kp LGUI   &none   &none    &kp LEFT &kp DOWN  &kp UP   &kp RIGHT &kp RET
-  &kp LSHFT &none &none &none &none &none    &none   &none    &kp HOME &kp PGDN  &kp PGUP &kp END   &kp RSHFT
-                                 &none &none  &none     &none  &none   &kp RALT
+    &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
+    &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &none
+    &none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
+                                              &none         &none         &none              &none         &none         &kp RALT
                         >;
                 };
 
-                raise_layer {
+                number_layer {
                         bindings = <
-   &none     &none &none &none &none &none          &kp LBKT   &kp N7  &kp N8  &kp N9  &kp N0   &kp RBKT
-   &none     &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none       &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp SEMI   &kp QUOT
-   &none  &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V)   &none       &kp DOT      &kp N1  &kp N2  &kp N3  &kp SLASH  &kp GRAVE
-                         &none &none &none          &kp MINUS  &kp SPACE&kp N0  &none
+    &none         &none         &kp N7        &kp N8        &kp N9        &none              &none         &none         &none         &none         &none         &none
+    &none         &none         &kp N4        &kp N5        &kp N6        &none              &none         &none         &none         &none         &none         &none
+    &none         &none         &kp N1        &kp N2        &kp N3        &none              &none         &none         &none         &none         &none         &none
+                                &none         &kp N0        &none         &none              &none         &none         &none
+                        >;
+                };
+
+                symbol_layer {
+                        bindings = <
+    &none         &kp TILDE     &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS           &none         &none         &none         &none         &none         &none
+    &none         &kp GRAVE     &kp DLLR      &kp PRCNT     &kp CARET     &kp MINUS          &none         &none         &none         &none         &none         &none
+    &none         &kp BSLH      &kp EXCL      &kp AT        &kp HASH      &kp UNDER          &none         &none         &none         &none         &none         &none
+                                &kp DQT       &kp SQT       &none         &none              &none         &none         &none
+                        >;
+                };
+
+                javascript_layer {
+                        bindings = <
+    &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &kp LPAR      &kp RPAR      &kp EQUAL     &kp GT        &none
+    &none         &none         &none         &none         &none         &none              &none         &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT      &none
+                                &none         &none         &none         &none              &none         &none         &none
+                        >;
+                };
+
+                navigation_layer {
+                        bindings = <
+    &none         &kp F12       &kp F7        &kp F8        &kp F9        &none              &none         &none         &none         &none         &none         &none
+    &none         &kp F11       &kp F1        &kp F2        &kp F3        &none              &none         &none         &none         &none         &none         &none
+    &none         &kp F10       &kp F4        &kp F5        &kp F6        &none              &none         &none         &none         &none         &none         &none
+                                &none         &kp N0        &none         &none              &none         &none         &none
                         >;
                 };
         };
