@@ -12,10 +12,10 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+                base_layer {
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp QUOT &kp BSPC
-   &kp CAPS  &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp RET
+   &kp CAPS  &mt LSHFT A    &mt LCTRL R  &mt LALT S  &mt LGUI T &kp G   &kp M   &mt LGUI N  &mt LALT E    &mt LCTRL I   &mt LSHFT O    &kp RET
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
                    &kp LGUI &mo 1 &mo 2     &mo 3 &kp SPACE  &kp RALT
                         >;
@@ -32,10 +32,10 @@
 
                 raise_layer {
                         bindings = <
-   &none     &none &none &none &none &none          &kp LBKT   &kp N7  &kp N8  &kp N9  &kp LBKT   &kp BSPC
+   &none     &none &none &none &none &none          &kp LBKT   &kp N7  &kp N8  &kp N9  &kp N0   &kp RBKT
    &none     &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none       &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp SEMI   &kp QUOT
    &none  &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V)   &none       &kp DOT      &kp N1  &kp N2  &kp N3  &kp SLASH  &kp GRAVE
-                         &none &none &none          &kp MINUS  &kp N0  &none
+                         &none &none &none          &kp MINUS  &kp SPACE&kp N0  &none
                         >;
                 };
         };
