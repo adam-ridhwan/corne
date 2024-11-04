@@ -21,17 +21,18 @@
                 };
             };
 
-k
+
            macros {
                half_l: half_l {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
-                   bindings =
-                        <&macro_press   &kp LGUI>,
-                        <&macro_press   &kp LALT>,
-                        <&macro_tap     &kp J>,
-                        <&macro_release &kp LGUI >,
-                        <&macro_release &kp LALT >;
+                   bindings
+                        = <&macro_press   &kp LGUI>
+                        , <&macro_press   &kp LALT>
+                        , <&macro_tap     &kp J>
+                        , <&macro_release &kp LGUI>
+                        , <&macro_release &kp LALT>
+                        ;
                };
            };
 
