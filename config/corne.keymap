@@ -27,12 +27,55 @@
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
+                        <&macro_press &kp LGUI &kp LALT>,
+                        <&macro_tap &kp J>,
+                        <&macro_release &kp LGUI &kp LALT>;
+               };
+
+               half_r: half_r {
+                   compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
+                   bindings =
                         <&macro_press &kp LGUI>,
                         <&macro_press &kp LALT>,
                         <&macro_tap &kp J>,
                         <&macro_release &kp LGUI>,
                         <&macro_release &kp LALT>;
                };
+
+               tw_th_l: tw_th_l {
+                   compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
+                   bindings =
+                        <&macro_press &kp LGUI>,
+                        <&macro_press &kp LALT>,
+                        <&macro_tap &kp J>,
+                        <&macro_release &kp LGUI>,
+                        <&macro_release &kp LALT>;
+               };
+
+               tw_th_r: tw_th_r {
+                   compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
+                   bindings =
+                        <&macro_press &kp LGUI>,
+                        <&macro_press &kp LALT>,
+                        <&macro_tap &kp J>,
+                        <&macro_release &kp LGUI>,
+                        <&macro_release &kp LALT>;
+               };
+
+               on_th_n: on_th_n {
+                   compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
+                   bindings =
+                        <&macro_press &kp LGUI>,
+                        <&macro_press &kp LALT>,
+                        <&macro_tap &kp J>,
+                        <&macro_release &kp LGUI>,
+                        <&macro_release &kp LALT>;
+               };
+
            };
 
 
