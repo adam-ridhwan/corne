@@ -26,11 +26,10 @@
                half_l: half_l {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
-                   bindings = <
-                       &macro_press &kp LALT &kp LGUI
-                       <&macro_tap &kp J>
-                       &macro_release &kp LALT &kp LGUI
-                   >;
+                   bindings =
+                        <&macro_press &kp LSHFT &kp LGUI>,
+                        <&macro_tap &kp J>,
+                        <&macro_release &kp LSHFT &kp LGUI>;
                };
            };
 
