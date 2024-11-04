@@ -25,6 +25,7 @@
            macros {
                half_l: half_l {
                    compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
                    bindings = <
                        &macro_press &kp LALT &kp LGUI
                        &kp J
