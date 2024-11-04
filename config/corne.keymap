@@ -95,9 +95,9 @@
 
                 tiling_layer {
                         bindings = <
-    &none         &none         &none         &none         &none         &none              &none         &1_4          &2_4          &3_4          &4_4          &none
-    &none         &none         &none         &none         &none         &none              &none         &1_2_l        &1_2_r        &2_3_l        &2_3_r        &1_3_n
-    &none         &none         &none         &none         &none         &none              &none         &center       &1_2_c        &2_3_c        &fullscreen   &none
+    &none         &none         &none         &none         &none         &none              &none         &none          &none          &none          &none          &none
+    &none         &none         &none         &none         &none         &none              &none         &1_2_l        &none       &none        &none       &none
+    &none         &none         &none         &none         &none         &none              &none         &none       &none     &none       &none   &none
                                 &none         &none         &none         &none              &none         &none         &none
                         >;
                 };
