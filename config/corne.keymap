@@ -95,7 +95,7 @@
                 tiling_layer {
                         bindings = <
     &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
-    &none         &none         &none         &none         &none         &none              &none         &kp half_l    &none         &none         &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &none    &none         &none         &none         &none
     &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
                                 &none         &none         &none         &none              &none         &none         &none
                         >;
