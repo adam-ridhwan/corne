@@ -21,75 +21,7 @@
                 };
             };
 
-         combos {
-                compatible = "zmk,combos";
 
-                half_l {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp N>;
-                };
-
-                half_r {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp E>;
-                };
-
-                2_3_l {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp I>;
-                };
-
-                2_3_r {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp O>;
-                };
-
-                1_3_n {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp RBRC>;
-                };
-
-                1_4 {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp s>;
-                };
-
-                2_4 {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp U>;
-                };
-
-                3_4 {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp Y>;
-                };
-
-                4_4 {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp SEMI>;
-                };
-
-                center {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp H>;
-                };
-
-                half_c {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp H>;
-                };
-
-                2_3_c {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp H>;
-                };
-
-                full {
-                    key-positions = <0 1 2>;
-                    bindings = <&kp LCMD &kp LALT &kp FLSH>;
-                };
-
-            };
 
         keymap {
                 compatible = "zmk,keymap";
