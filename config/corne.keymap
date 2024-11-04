@@ -80,7 +80,7 @@
                         >;
                 };
 
-`                tiling_layer {
+                tiling_layer {
                         bindings = <
     &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
     &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
@@ -88,6 +88,6 @@
                                 &none         &none         &none         &none              &none         &none         &none
                         >;
                 };
-`
+
         };
 };
