@@ -23,7 +23,7 @@
 
 
            macros {
-               HALF_L: HALF_L {
+               1_2_l: 1_2_l {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
