@@ -23,8 +23,8 @@
 
 
            macros {
-               macro_ctrl_opt_cmd_j: macro {
-                   label = "CTRL_OPT_CMD_J";
+               half_l: macro {
+                   label = "Move window tile to left half";
                    bindings = <
                        &macro_press &kp LALT &kp LGUI
                        &kp J
