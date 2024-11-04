@@ -24,67 +24,80 @@
         combos {
                 compatible = "zmk,combos";
 
-                half_l {
+                combo_half_r {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp N>;
                 };
 
                 half_r {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp E>;
                 };
 
-                2_3_l {
+                third_l {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp I>;
                 };
 
-                2_3_r {
+                third_r {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp O>;
                 };
 
-                1_3_n {
+                third_n {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp RBRC>;
                 };
 
-                1_4 {
+                fourth_1 {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp s>;
                 };
 
-                2_4 {
+                fourth_2 {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp U>;
                 };
 
-                3_4 {
+                fourth_3 {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp Y>;
                 };
 
-                4_4 {
+                fourth_4 {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp SEMI>;
                 };
 
                 center {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp H>;
                 };
 
                 half_c {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp H>;
                 };
 
-                2_3_c {
+                third_c {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp H>;
                 };
 
                 full {
+                    timeout-ms = <50>;
                     key-positions = <0 1 2>;
                     bindings = <&kp LCMD &kp LALT &kp FLSH>;
                 };
