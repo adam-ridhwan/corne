@@ -23,14 +23,14 @@
 
 
            macros {
-               1_2_l: 1_2_l {
+               half_l: half_l {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LGUI &kp LALT>,
                         <&macro_press &kp LALT>,
                         <&macro_tap &kp J>,
-                        <&macro_release &kp LGUI >,
+                        <&macro_release &kp LGUI>,
                         <&macro_release &kp LALT>;
                };
            };
@@ -95,10 +95,10 @@
 
                 tiling_layer {
                         bindings = <
-    &none         &none         &none         &none         &none         &none              &none         &none          &none          &none          &none          &none
-    &none         &none         &none         &none         &none         &none              &none         &1_2_l        &none       &none        &none       &none
-    &none         &none         &none         &none         &none         &none              &none         &none       &none     &none       &none   &none
-                                &none         &none         &none         &none              &none         &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &none          &none         &none        &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &half_l        &none         &none        &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &none          &none         &none        &none         &none
+                                &none         &none         &none         &none              &none         &none          &none
                         >;
                 };
 
