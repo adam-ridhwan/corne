@@ -23,8 +23,8 @@
 
 
            macros {
-               half_l: macro {
-                   label = "Move window tile to left half";
+               half_l: half_l {
+                   compatible = "zmk,behavior-macro";
                    bindings = <
                        &macro_press &kp LALT &kp LGUI
                        &kp J
