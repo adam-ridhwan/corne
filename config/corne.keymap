@@ -79,15 +79,5 @@
                                 &none         &kp N0        &none         &none              &none         &none         &none
                         >;
                 };
-
-                tiling_layer {
-                        bindings = <
-    &none         &none         &none         &none         &none         &none              &none         &kp 1_4       &kp 2_4      &kp 3_4       &kp 4_4       &none
-    &none         &none         &none         &none         &none         &none              &none         &kp half_l    &kp half_r   &kp 2_3_l     &kp 2_3_r     &kp 1_3_n
-    &none         &none         &none         &none         &none         &none              &none         &kp center    &kp half_c   &kp 2_3_c     &kp full      &none
-                                &none         &none         &none         &none              &none         &none         &none
-                        >;
-                };
-
         };
 };
