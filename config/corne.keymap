@@ -28,8 +28,10 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LGUI &kp LALT>,
+                        <&macro_press &kp LALT>,
                         <&macro_tap &kp J>,
-                        <&macro_release &kp LGUI &kp LALT>,
+                        <&macro_release &kp LGUI >,
+                        <&macro_release &kp LALT>;
                };
            };
 
