@@ -82,7 +82,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp COMMA &kp H>,
+                        <&macro_tap &kp N &kp H>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
