@@ -211,8 +211,8 @@
                 tiling_layer {
                         bindings = <
     &none         &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-    &none         &none         &none         &none         &none         &none              &none         &half_l       &half_r       &two_third_l  &two_third_r  &none
-    &none         &none         &none         &none         &none         &none              &none         &center       &half_c       &two_third_c  &fullscreen   &none
+    &none         &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_c       &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
