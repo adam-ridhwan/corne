@@ -28,16 +28,25 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N>,
+                        <&macro_tap &kp A>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
+
+              half_c: half_c {
+                  compatible = "zmk,behavior-macro";
+                  #binding-cells = <0>;
+                  bindings =
+                       <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                       <&macro_tap &kp B>,
+                       <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+              };
 
                half_r: half_r {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp E>,
+                        <&macro_tap &kp C>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -46,8 +55,17 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp I>,
+                        <&macro_tap &kp D>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+               };
+
+               two_third_c: two_third_c {
+                 compatible = "zmk,behavior-macro";
+                 #binding-cells = <0>;
+                 bindings =
+                      <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                      <&macro_tap &kp E>,
+                      <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
                two_third_r: two_third_r {
@@ -55,34 +73,34 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp O>,
+                        <&macro_tap &kp F>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
-               one_third_l: one_third_l{
+                one_third_l: one_third_l{
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N1>,
+                        <&macro_tap &kp G>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-               };
+                };
 
-              one_third_c: one_third_c {
+                one_third_c: one_third_c {
                   compatible = "zmk,behavior-macro";
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp N2>,
+                       <&macro_tap &kp H>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-              };
+                };
 
               one_third_r: one_third_r {
                   compatible = "zmk,behavior-macro";
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp N3>,
+                       <&macro_tap &kp I>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -91,25 +109,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp H>,
-                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-               };
-
-               half_c: half_c {
-                   compatible = "zmk,behavior-macro";
-                   #binding-cells = <0>;
-                   bindings =
-                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp H>,
-                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-               };
-
-               two_third_c: two_third_c {
-                   compatible = "zmk,behavior-macro";
-                   #binding-cells = <0>;
-                   bindings =
-                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp DOT>,
+                        <&macro_tap &kp J>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -118,7 +118,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp H &kp SLASH>,
+                        <&macro_tap &kp K>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -136,7 +136,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp U>,
+                        <&macro_tap &kp M>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -145,7 +145,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp Y>,
+                        <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -154,10 +154,9 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp SEMI>,
+                        <&macro_tap &kp O>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
-
            };
 
 
