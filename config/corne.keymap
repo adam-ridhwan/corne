@@ -104,7 +104,7 @@
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
-               center: center {
+               fullscreen: fullscreen {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
@@ -113,7 +113,7 @@
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
-               fullscreen: fullscreen {
+               first_f: first_f {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
@@ -122,7 +122,7 @@
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
-               first_f: first_f {
+               second_f: second_f {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
@@ -131,7 +131,7 @@
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
-               second_f: second_f {
+               third_f: third_f {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
@@ -140,21 +140,12 @@
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
-               third_f: third_f {
-                   compatible = "zmk,behavior-macro";
-                   #binding-cells = <0>;
-                   bindings =
-                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N>,
-                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-               };
-
                fourth_f: fourth_f {
                    compatible = "zmk,behavior-macro";
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp O>,
+                        <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
            };
