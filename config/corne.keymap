@@ -159,7 +159,7 @@
     &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp QUOT      &kp BSPC
     &kp CAPS      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &kp RET
     &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
-                                              &mo 4        &mo 1        &mo 6                &lt 5 BSPC    &lt 2 SPACE   &mo 3
+                                              &mo 4        &lt 1 TAB    &lt 6 ESC            &lt 5 BSPC    &lt 2 SPACE   &mo 3
                         >;
                 };
 
