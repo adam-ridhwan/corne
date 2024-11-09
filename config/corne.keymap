@@ -158,8 +158,8 @@
                         bindings = <
     &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp QUOT      &kp BSPC
     &kp CAPS      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &kp RET
-    &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
-                                              &mo 4        &lt 1 TAB    &lt 6 ESC            &lt 5 BSPC    &lt 2 SPACE   &mo 3
+    &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
+                                              &lt 4 ESC    &lt 1 TAB    &lt 6 RET            &lt 5 BSPC    &lt 2 SPACE   &mo 3
                         >;
                 };
 
