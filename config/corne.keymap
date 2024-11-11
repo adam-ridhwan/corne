@@ -28,7 +28,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N>,
+                        <&macro_tap &kp A>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -37,7 +37,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp E>,
+                       <&macro_tap &kp B>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -46,7 +46,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp I>,
+                        <&macro_tap &kp C>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -55,7 +55,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp H>,
+                        <&macro_tap &kp D>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -64,7 +64,7 @@
                  #binding-cells = <0>;
                  bindings =
                       <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                      <&macro_tap &kp LT>,
+                      <&macro_tap &kp E>,
                       <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -73,7 +73,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp GT>,
+                        <&macro_tap &kp F>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -82,7 +82,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp BSPC>,
+                        <&macro_tap &kp G>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -91,7 +91,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp SPACE>,
+                       <&macro_tap &kp H>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -100,7 +100,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp LSHFT>,
+                       <&macro_tap &kp I>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -109,7 +109,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp T>,
+                        <&macro_tap &kp J>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -118,7 +118,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp L>,
+                        <&macro_tap &kp K>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -127,7 +127,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp U>,
+                        <&macro_tap &kp L>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -136,7 +136,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp Y>,
+                        <&macro_tap &kp M>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -145,7 +145,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp SEMI>,
+                        <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
            };
