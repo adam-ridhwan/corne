@@ -28,7 +28,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp A>,
+                        <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -37,7 +37,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp B>,
+                       <&macro_tap &kp E>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -46,7 +46,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp C>,
+                        <&macro_tap &kp I>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -55,7 +55,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp D>,
+                        <&macro_tap &kp H>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -64,7 +64,7 @@
                  #binding-cells = <0>;
                  bindings =
                       <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                      <&macro_tap &kp E>,
+                      <&macro_tap &kp LT>,
                       <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -73,7 +73,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp F>,
+                        <&macro_tap &kp GT>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -82,7 +82,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp G>,
+                        <&macro_tap &kp BSPC>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -91,7 +91,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp H>,
+                       <&macro_tap &kp SPACE>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -100,7 +100,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp I>,
+                       <&macro_tap &kp LSHFT>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -109,7 +109,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp J>,
+                        <&macro_tap &kp T>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -118,7 +118,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp K>,
+                        <&macro_tap &kp L>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -127,7 +127,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp L>,
+                        <&macro_tap &kp U>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -136,7 +136,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp M>,
+                        <&macro_tap &kp Y>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -145,7 +145,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N>,
+                        <&macro_tap &kp SEMI>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
            };
@@ -168,7 +168,7 @@
     &none         &none         &none         &none         &none         &none              &none         &none         &kp UP        &none         &none         &none
     &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none
     &none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
-                                              &none         &none         &none              &none         &none         &none
+                                              &none         &none         &none              &none         &none         &kp RALT
                         >;
                 };
 
@@ -210,9 +210,9 @@
 
                 tiling_layer {
                         bindings = <
-    &bt BT_PRV    &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-    &bt BT_NXT    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-    &bt BT_CL     &none         &none         &none       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
+    &none         &none         &bt BT_NXT    &bt BT_PRV    &bt BT_CLR    &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
+    &none         &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
