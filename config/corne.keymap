@@ -168,7 +168,7 @@
     &none         &none         &none         &none         &none         &none              &none         &none         &kp UP        &none         &none         &none
     &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none
     &none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
-                                              &none         &none         &none              &none         &none         &kp RALT
+                                              &none         &none         &none              &none         &none         &none
                         >;
                 };
 
@@ -210,9 +210,9 @@
 
                 tiling_layer {
                         bindings = <
-    &none         &none         &bt BT_NXT    &bt BT_PRV    &bt BT_CLR    &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-    &none         &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-    &none         &none         &none         &none         &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
+    &bt BT_PRV    &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
+    &bt BT_NXT    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
+    &bt BT_CL     &none         &none         &none       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
