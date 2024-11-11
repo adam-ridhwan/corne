@@ -157,7 +157,6 @@
                         <&macro_tap &kp SEMI>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
-
            };
 
 
