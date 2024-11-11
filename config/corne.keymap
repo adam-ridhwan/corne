@@ -28,7 +28,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp A>,
+                        <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -37,7 +37,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp B>,
+                       <&macro_tap &kp E>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -46,7 +46,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp C>,
+                        <&macro_tap &kp I>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -55,7 +55,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp D>,
+                        <&macro_tap &kp H>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -64,7 +64,7 @@
                  #binding-cells = <0>;
                  bindings =
                       <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                      <&macro_tap &kp E>,
+                      <&macro_tap &kp LT>,
                       <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -73,7 +73,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp F>,
+                        <&macro_tap &kp GT>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -82,7 +82,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp G>,
+                        <&macro_tap &kp BSPC>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -91,7 +91,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp H>,
+                       <&macro_tap &kp SPACE>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                 };
 
@@ -100,7 +100,7 @@
                   #binding-cells = <0>;
                   bindings =
                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                       <&macro_tap &kp I>,
+                       <&macro_tap &kp LSHFT>,
                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
               };
 
@@ -109,7 +109,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp J>,
+                        <&macro_tap &kp T>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -118,7 +118,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp K>,
+                        <&macro_tap &kp L>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -127,7 +127,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp L>,
+                        <&macro_tap &kp U>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -136,7 +136,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp M>,
+                        <&macro_tap &kp Y>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
 
@@ -145,7 +145,7 @@
                    #binding-cells = <0>;
                    bindings =
                         <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                        <&macro_tap &kp N>,
+                        <&macro_tap &kp SEMI>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
            };
@@ -156,17 +156,17 @@
 
                 base_layer {
                         bindings = <
-    &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp QUOT      &kp BSPC
+    &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &kp BSPC
     &kp CAPS      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &kp RET
     &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
-                                              &lt 4 ESC    &lt 1 TAB    &lt 6 RET            &lt 5 BSPC    &lt 2 SPACE   &mo 3
+                                              &lt 4 ESC    &lt 1 TAB    &lt 6 RET            &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
                         >;
                 };
 
                 navigation_layer {
                         bindings = <
-    &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
-    &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &none
+    &none         &none         &none         &none         &none         &none              &none         &none         &kp UP        &none         &none         &none
+    &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none
     &none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
                                               &none         &none         &none              &none         &none         &kp RALT
                         >;
