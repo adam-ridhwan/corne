@@ -148,6 +148,15 @@
                         <&macro_tap &kp N>,
                         <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
                };
+
+               center: center {
+                   compatible = "zmk,behavior-macro";
+                   #binding-cells = <0>;
+                   bindings =
+                        <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                        <&macro_tap &kp O>,
+                        <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+               };
            };
 
 
@@ -210,9 +219,9 @@
 
                 tiling_layer {
                         bindings = <
-    &none         &none         &bt BT_NXT    &bt BT_PRV    &bt BT_CLR    &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-    &none         &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-    &none         &none         &none         &none         &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
+    &bt BT_PRV    &none         &none         &none         &none         &none              &first_f      &second_f     &third_f      &fourth_f     &none
+    &bt BT_PRV    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
+    &bt BT_CLR    &none         &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
