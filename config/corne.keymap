@@ -219,7 +219,7 @@
 
                 tiling_layer {
                         bindings = <
-    &bt BT_PRV    &none         &none         &none         &none         &none              &first_f      &second_f     &third_f      &fourth_f     &none
+    &bt BT_PRV    &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
     &bt BT_PRV    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
     &bt BT_CLR    &none         &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
