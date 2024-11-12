@@ -165,72 +165,72 @@
 
                 base_layer {
                         bindings = <
-       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI
-      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O
-     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH
+    &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &tog 7
+    &kp CAPS      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &kp RET
+    &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
                                               &lt 4 ESC    &lt 1 TAB    &lt 6 RET            &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
                         >;
                 };
 
                 navigation_layer {
                         bindings = <
-             &none         &none         &none         &none         &none              &none         &none         &kp UP        &none         &none
-             &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none
-             &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END
+    &none         &none         &none         &none         &none         &none              &none         &none         &kp UP        &none         &none         &none
+    &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none
+    &none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
                                               &none         &none         &none              &none         &none         &none
                         >;
                 };
 
                 number_layer {
                         bindings = <
-             &none         &kp N7        &kp N8        &kp N9        &none              &none         &none         &none         &none         &none
-             &none         &kp N4        &kp N5        &kp N6        &none              &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT
-             &none         &kp N1        &kp N2        &kp N3        &none              &none         &none         &none         &none         &none
+    &none         &none         &kp N7        &kp N8        &kp N9        &none              &none         &none         &none         &none         &none         &none
+    &none         &none         &kp N4        &kp N5        &kp N6        &none              &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT     &none
+    &none         &none         &kp N1        &kp N2        &kp N3        &none              &none         &none         &none         &none         &none         &none
                                               &none         &kp N0        &none              &none         &none         &none
                         >;
                 };
 
                 symbol_layer {
                         bindings = <
-         &kp TILDE     &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS           &none         &none         &none         &none         &none
-         &kp GRAVE     &kp DLLR      &kp PRCNT     &kp CARET     &kp MINUS          &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT
-         &kp BSLH      &kp EXCL      &kp AT        &kp HASH      &kp UNDER          &none         &none         &none         &none         &none
+    &none         &kp TILDE     &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS           &none         &none         &none         &none         &none         &none
+    &none         &kp GRAVE     &kp DLLR      &kp PRCNT     &kp CARET     &kp MINUS          &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT     &none
+    &none         &kp BSLH      &kp EXCL      &kp AT        &kp HASH      &kp UNDER          &none         &none         &none         &none         &none         &none
                                               &kp DQT       &kp SQT       &none              &none         &none         &none
                         >;
                 };
 
                 javascript_layer {
                         bindings = <
-             &none         &none         &none         &none         &none              &none         &none         &none         &none         &none
-             &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LPAR      &kp RPAR      &kp KP_EQUAL  &kp GT
-             &none         &none         &none         &none         &none              &none         &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT
+    &none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
+    &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &none         &kp LPAR      &kp RPAR      &kp KP_EQUAL  &kp GT        &none
+    &none         &none         &none         &none         &none         &none              &none         &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT      &none
                                               &none         &none         &none              &none         &none         &none
                         >;
                 };
 
                 function_layer {
                         bindings = <
-             &kp F12       &kp F7        &kp F8        &kp F9        &none              &none         &none         &none         &none         &none
-             &kp F11       &kp F1        &kp F2        &kp F3        &none              &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT
-             &kp F10       &kp F4        &kp F5        &kp F6        &none              &none         &none         &none         &none         &none
+    &none         &kp F12       &kp F7        &kp F8        &kp F9        &none              &none         &none         &none         &none         &none         &none
+    &none         &kp F11       &kp F1        &kp F2        &kp F3        &none              &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT     &none
+    &none         &kp F10       &kp F4        &kp F5        &kp F6        &none              &none         &none         &none         &none         &none         &none
                                               &none         &none         &none              &none         &none         &none
                         >;
                 };
 
                 tiling_layer {
                         bindings = <
-    &bt BT_PRV            &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f
-    &bt BT_PRV            &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none
-    &bt BT_CLR            &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none
+    &bt BT_PRV    &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
+    &bt BT_PRV    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
+    &bt BT_CLR    &none         &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
 
                 qwerty_layer {
                         bindings = <
-           &kp Q         &kp W         &kp E         &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P
-          &kp A         &kp S         &kp D         &kp F         &kp G              &kp H         &kp J         &kp K         &kp L         &kp SEMI
-         &kp Z         &kp X         &kp C         &kp V         &kp B              &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
+    &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P         &tog 7
+    &kp CAPS      &kp A         &kp S         &kp D         &kp F         &kp G              &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp RET
+    &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B              &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
                                               &lt 4 ESC     &lt 1 TAB     &lt 6 RET          &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
 
                         >;
