@@ -234,7 +234,7 @@
                                               &lt 4 ESC     &lt 1 TAB     &lt 6 RET          &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
 
                         >;
-                }
+                };
 
         };
 };
