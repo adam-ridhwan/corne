@@ -165,9 +165,9 @@
 
                 base_layer {
                         bindings = <
-    &kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &tog 7
-    &kp CAPS      &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &kp RET
-    &kp LSHFT     &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
+    &none         &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &none
+    &none         &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm LGUI N    &hm LALT E    &hm LCTRL I   &hm LSHFT O   &none
+    &none         &kp Z         &kp X         &kp C        &kp D        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &none
                                               &lt 4 ESC    &lt 1 TAB    &lt 6 RET            &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
                         >;
                 };
@@ -219,22 +219,11 @@
 
                 tiling_layer {
                         bindings = <
-    &bt BT_PRV    &none         &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-    &bt BT_PRV    &none         &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-    &bt BT_CLR    &none         &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
+    &none         &bt BT_PRV    &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
+    &none         &bt BT_PRV    &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
+    &none         &bt BT_CLR    &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
                                               &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
                         >;
                 };
-
-                qwerty_layer {
-                        bindings = <
-    &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P         &tog 7
-    &kp CAPS      &kp A         &kp S         &kp D         &kp F         &kp G              &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp RET
-    &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B              &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp LSHFT
-                                              &lt 4 ESC     &lt 1 TAB     &lt 6 RET          &lt 5 BSPC    &lt 2 SPACE   &lt 3 LSHFT
-
-                        >;
-                };
-
         };
 };
