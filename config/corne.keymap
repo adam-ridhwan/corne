@@ -170,7 +170,7 @@
 &none         &kp Z         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp FSLH      &none
 &none         &kp Q         &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp K         &hm LGUI N    &hm LALT E    &hm LCTRL I   &kp SEMI      &none
 &none         &hm LSHFT A   &kp X         &kp D        &kp C        &kp V                &kp M         &kp H         &kp COMMA     &kp DOT       &hm LSHFT O   &none
-                                          &lt TIL ESC  &lt JAV TAB  &lt NAV RET          &lt NUM SPACE &lt SYM BSPC  &lt NUM LSHFT
+                                          &lt JAV TAB  &lt NAV RET  &lt TIL ESC          &lt FUN BSPC  &lt NUM SPACE &lt SYM LSHFT
                     >;
             };
 
