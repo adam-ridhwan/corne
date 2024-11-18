@@ -178,14 +178,14 @@
                 bindings = <
 &none         &none         &none         &none         &none         &none              &kp PGUP      &kp HOME      &kp UP        &kp END       &none         &none
 &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &kp PGDN      &kp LEFT      &kp DOWN      &kp RIGHT     &kp BSPC      &none
-&none         &none         &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)          &none         &none         &none         &none         &kp RET       &none
+&none         &none         &none         &none         &none&none    &none              &none         &none         &none         &kp RET       &none
                                           &none         &none         &none              &none         &none         &none
                         >;
                 };
 
             number_layer {
                 bindings = <
-&none         &none         &kp N7        &kp N8       &kp N9        &none              &none         &none         &none         &none         &none         &none
+&none         &none         &kp N7        &kp N8       ghj&kp N9        &none              &none         &none         &none         &none         &none         &none
 &none         &none         &kp N4        &kp N5        &kp N6        &none              &none         &kp RGUI      &kp RALT      &kp RCTRL     &kp RSHFT     &none
 &none         &none         &kp N1        &kp N2        &kp N3        &none              &none         &none         &none         &none         &none         &none
                                           &none         &kp N0        &none              &none         &none         &none
@@ -221,9 +221,9 @@
 
             tiling_layer {
                 bindings = <
-&none         &bt BT_PRV    &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
+&none         &bt BT_CLR    &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
 &none         &bt BT_PRV    &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-&none         &bt BT_CLR    &none         &center       &none         &none              &none         &one_third_l  &one_third_c  &one_third_r  &none         &none
+&none         &none         &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)          &none         &one_third_l  &one_third_c  &one_third_r  &none         &none
                                           &none         &none         &none              &two_third_l  &two_third_c  &two_third_r
                         >;
                 };
