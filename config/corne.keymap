@@ -170,15 +170,15 @@
 &none         &kp Q        &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI       &none
 &none         &hm LCTRL A  &hm LALT R    &hm LGUI S   &hm LSHFT T  &kp G                &kp K         &hm RSHFT N   &hm RGUI E    &hm RALT I    &hm RCTRL O    &none
 &none         &kp Z        &kp X         &kp D        &kp C        &kp V                &kp M         &kp H         &kp COMMA     &kp DOT       &kp FSLH       &none
-                                          &lt JAV ESC &lt NAV TAB  &lt TIL RET          &lt FUN BSPC  &lt NUM SPACE &lt SYM LSHFT
+                                         &lt TIL ESC  &lt NAV TAB  &lt JAV RET          &lt SYM BSPC  &lt NUM SPACE &lt FUN RSHFT
                     >;
             };
 
             navigation_layer {
                 bindings = <
-&none         &none         &none         &none         &none         &none              &none         &none         &none         &none         &none         &none
-&none         &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &none              &none         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &none
-&none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp PGDN      &kp PGUP      &kp END       &none
+&none         &none         &none         &none         &none         &none              &none         &kp HOME      &kp UP        &kp END       &none         &none
+&none         &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &none              &kp PGUP      &kp LEFT      &kp DOWN      &kp RIGHT     &kp BSPC      &none
+&none         &none         &none         &none         &none         &none              &kp PGDN      $none         &none         &none         &kp RET       &none
                                           &none         &none         &none              &none         &none         &none
                         >;
                 };
@@ -213,8 +213,8 @@
             function_layer {
                 bindings = <
 &none         &kp F12       &kp F7        &kp F8        &kp F9        &none              &none         &none         &none         &none         &none         &none
-&none         &kp F11       &kp F1        &kp F2        &kp F3        &none              &none         &kp RSHFT     &kp RGUI      &kp RALT      &kp RCTRL     &none
-&none         &kp F10       &kp F4        &kp F5        &kp F6        &none              &none         &none         &none         &none         &none         &none
+&none         &kp F11       &kp F4        &kp F5        &kp F6        &none              &none         &kp RSHFT     &kp RGUI      &kp RALT      &kp RCTRL     &none
+&none         &kp F10       &kp F1        &kp F2        &kp F3        &none              &none         &none         &none         &none         &none         &none
                                           &none         &none         &none              &none         &none         &none
                         >;
                 };
@@ -223,8 +223,8 @@
                 bindings = <
 &none         &bt BT_PRV    &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
 &none         &bt BT_PRV    &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-&none         &bt BT_CLR    &none         &center       &none         &none              &none         &two_third_l  &two_third_c  &two_third_r  &none         &none
-                                          &none         &none         &none              &one_third_l  &one_third_c  &one_third_r
+&none         &bt BT_CLR    &none         &center       &none         &none              &none         &one_third_l  &one_third_c  &one_third_r  &none         &none
+                                          &none         &none         &none              &two_third_l  &two_third_c  &two_third_r
                         >;
                 };
         };
