@@ -24,8 +24,8 @@
         };
 
         hy: macro_hyper {
-      compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp Z &kp M &kp K>
@@ -53,7 +53,7 @@
             navigation_layer {
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &kp Q         &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
+       &none         &hy Q         &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none       &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI        &none            &kp PGUP      &kp LEFT      &kp DOWN     &kp RIGHT      &kp BSPC       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
