@@ -30,8 +30,7 @@
                 = <&macro_press LGUI LALT LCTRL LSHIFT>
                 , <&kp @0>
                 , <&macro_release LGUI LALT LCTRL LSHIFT>;
-};
-
+        };
     };
 
 
