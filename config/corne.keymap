@@ -27,7 +27,8 @@
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings
-                = <&macro_param_1to1>
+                = <&macro_press LGUI>
+                , <&macro_param_1to1>
                 , <&kp MACRO_PLACEHOLDER>
                 ;
         };
