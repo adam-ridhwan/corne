@@ -9,12 +9,12 @@
 #define JAV 4
 #define FUN 5
 
-#define h(kc) &macro_press LGUI LALT LCTRL LSHIFT kc
+#define h(n) LS(LC(LA(LG(n))))
 
 / {
 
     behaviors {
-        hm: homerow_mods {
+        hm: home_row_mod {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -52,7 +52,7 @@
             navigation_layer {
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &kp Q         &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
+       &none        h(&kp Q)         &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none       &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI        &none            &kp PGUP      &kp LEFT      &kp DOWN     &kp RIGHT      &kp BSPC       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
