@@ -23,7 +23,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hy: hyper_key {
+        hy: macro_hyper {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings
@@ -52,7 +52,7 @@
             navigation_layer {
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp h(Q)      &hy &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
+       &none       &kp h(&kp Q)      &hy &kp W         &kp F         &kp P         &kp B             &none        &kp HOME      &kp UP        &kp END        &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none       &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI        &none            &kp PGUP      &kp LEFT      &kp DOWN     &kp RIGHT      &kp BSPC       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
