@@ -9,6 +9,8 @@
 #define JAV 4
 #define FUN 5
 
+#define h(kc) &macro_press LGUI LALT LCTRL LSHIFT kc
+
 / {
 
     behaviors {
@@ -20,6 +22,16 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        hy: macro_hyper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <1>;
+            bindings
+                = <&macro_press LGUI LALT LCTRL LSHIFT>
+                , <&kp>
+                , <&macro_release LGUI LALT LCTRL LSHIFT>;
+};
+
     };
 
 
@@ -28,16 +40,16 @@
 
             base_layer {
                 bindings = <
-&kp TAB       &kp Q        &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI       &kp BSPC
-&kp ESC       &hm LSHFT A  &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm RGUI N    &hm RALT E    &hm RCTRL I   &hm RSHFT O    &kp RET
-&kp LSHFT     &kp Z        &kp X         &kp D        &kp C        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHFT
-                                         &kp LGUI     &lt NAV ESC  &lt JAV TAB          &lt SYM BSPC  &lt NUM SPACE &lt FUN RET
+&kp TAB       &kp Q         &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI       &kp BSPC
+&kp ESC       &hm LSHFT A   &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm RGUI N    &hm RALT E    &hm RCTRL I   &hm RSHFT O    &kp RET
+&kp LSHFT     &kp Z         &kp X         &kp D        &kp C        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHFT
+                                          &kp LGUI     &lt NAV ESC  &lt JAV TAB          &lt SYM BSPC  &lt NUM SPACE &lt FUN RET
                     >;
             };
 
             navigation_layer {
                 bindings = <
-&none         &none         &none         &none         &none         &none              &kp PGUP      &kp HOME      &kp UP        &kp END       &none         &none
+&none         &hy Q         &hy W         &hy F         &hy P         &hy B              &kp PGUP      &kp HOME      &kp UP        &kp END       &none         &none
 &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI      &none              &kp PGDN      &kp LEFT      &kp DOWN      &kp RIGHT     &kp BSPC      &none
 &none         &none         &none         &none         &none         &none              &none         &none         &none         &kp RET       &none
                                           &none         &none         &none              &kp BSPC      &kp SPACE     &none
