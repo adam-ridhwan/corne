@@ -24,11 +24,11 @@
         };
 
         hy: macro_hyper {
-            compatible = "zmk,behavior-macro-one-param";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <1>;
             bindings
                 = <&macro_press LGUI LALT LCTRL LSHIFT>
-                , <&kp>
+                , <&kp @0>
                 , <&macro_release LGUI LALT LCTRL LSHIFT>;
 };
 
