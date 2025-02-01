@@ -23,7 +23,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hy: macro_hyper {
+        hy: hyper {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings
