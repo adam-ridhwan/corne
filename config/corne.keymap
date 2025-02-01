@@ -31,7 +31,7 @@
 &kp TAB       &kp Q        &kp W         &kp F        &kp P        &kp B                &kp J         &kp L         &kp U         &kp Y         &kp SEMI       &kp BSPC
 &kp ESC       &hm LSHFT A  &hm LCTRL R   &hm LALT S   &hm LGUI T   &kp G                &kp M         &hm RGUI N    &hm RALT E    &hm RCTRL I   &hm RSHFT O    &kp RET
 &kp LSHFT     &kp Z        &kp X         &kp D        &kp C        &kp V                &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHFT
-                                         &kp LGUI     &lt NAV ESC  &lt JAV TAB          &lt SYM SPACE &lt NUM SPACE &lt FUN RET
+                                         &kp LGUI     &lt NAV ESC  &lt JAV TAB          &lt SYM BSPC  &lt NUM SPACE &lt FUN RET
                     >;
             };
 
