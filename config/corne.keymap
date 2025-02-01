@@ -8,7 +8,6 @@
 #define SYM 3
 #define JAV 4
 #define FUN 5
-#define TIL 6
 
 / {
 
@@ -22,144 +21,6 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
-
-   macros {
-       half_l: half_l {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp A>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-      half_c: half_c {
-          compatible = "zmk,behavior-macro";
-          #binding-cells = <0>;
-          bindings =
-               <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-               <&macro_tap &kp B>,
-               <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-      };
-
-       half_r: half_r {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp C>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       two_third_l: two_third_l {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp D>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       two_third_c: two_third_c {
-         compatible = "zmk,behavior-macro";
-         #binding-cells = <0>;
-         bindings =
-              <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-              <&macro_tap &kp E>,
-              <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       two_third_r: two_third_r {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp F>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-        one_third_l: one_third_l{
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp G>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-        };
-
-        one_third_c: one_third_c {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-               <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-               <&macro_tap &kp H>,
-               <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-        };
-
-      one_third_r: one_third_r {
-          compatible = "zmk,behavior-macro";
-          #binding-cells = <0>;
-          bindings =
-               <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-               <&macro_tap &kp I>,
-               <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-      };
-
-       fullscreen: fullscreen {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp J>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       first_f: first_f {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp K>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       second_f: second_f {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp L>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       third_f: third_f {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp M>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       fourth_f: fourth_f {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp N>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-
-       center: center {
-           compatible = "zmk,behavior-macro";
-           #binding-cells = <0>;
-           bindings =
-                <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
-                <&macro_tap &kp O>,
-                <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
-       };
-   };
 
 
     keymap {
@@ -218,14 +79,5 @@
                                           &none         &none         &none              &none         &none         &none
                         >;
                 };
-
-            tiling_layer {
-                bindings = <
-&none         &bt BT_CLR    &none         &none         &none         &none              &none         &first_f      &second_f     &third_f      &fourth_f     &none
-&none         &bt BT_PRV    &none         &none         &fullscreen   &none              &none         &half_l       &half_c       &half_r       &none         &none
-&none         &none         &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)          &none         &one_third_l  &one_third_c  &one_third_r  &none         &none
-                                          &none         &none         &none              &two_third_l  &two_third_c  &two_third_r
-                        >;
-                };
-        };
+    }
 };
