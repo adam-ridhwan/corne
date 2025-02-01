@@ -28,7 +28,7 @@
             #binding-cells = <1>;
             bindings
                 = <&macro_press LGUI LALT LCTRL LSHIFT>
-                , <&kp @0>
+                , <&kp>
                 , <&macro_release LGUI LALT LCTRL LSHIFT>;
         };
     };
