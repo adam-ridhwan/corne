@@ -13,10 +13,10 @@
 #define MED 7
 
 #define h(n)  LS(LC(LA(LG(n))))
-#define PREV  LG(RBKT)
-#define NEXT  LG(RBKT)
 #define BACK  LG(LBRC)
 #define FWRD  LG(RBRC)
+#define PREV  LG(LBKT)
+#define NEXT  LG(RBKT)
 #define CYCLE LG(GRAVE)
 
 / {
