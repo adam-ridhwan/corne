@@ -18,8 +18,8 @@
 #define PREV  LG(LBKT)
 #define NEXT  LG(RBKT)
 #define CYCLE LG(GRAVE)
-#define IN    LG(MINUS)
-#define OUT   LG(EQUAL)
+#define IN    LG(EQUAL)
+#define OUT   LG(MINUS)
 
 / {
 
