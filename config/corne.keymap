@@ -22,6 +22,13 @@
 #define ZIN   LG(EQUAL)
 #define ZOUT  LG(MINUS)
 
+#define FS_CB  &kp LS(LG(LC(N3)))
+#define SS_CB  &kp LS(LG(LC(N4)))
+#define FS_FL  &kp LS(LG(N3))
+#define SS_FL  &kp LS(LG(N4))
+#define SMENU  &kp LS(LG(N5))
+
+
 / {
 
     behaviors {
@@ -147,9 +154,9 @@
             editing_layer {
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp LG(Q)     &kp LG(W)      &search      &kp LG(F)     &kp LG(B)           &none     &kp LS(LG(LC(N3))) &kp LS(LG(LC(N4)))     &none         &none         &none
+       &none       &kp LG(Q)     &kp LG(W)      &search      &kp LG(F)     &kp LG(B)           &none       &kp FS_CB     &kp SS_CB       &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp LG(A)     &kp LG(R)     &kp LG(S)     &kp LG(T)     &kp LG(G)           &none      &kp LS(LG(N3))  &kp LS(LG(N4))    &kp LS(LG(5))       &none         &none
+       &none       &kp LG(A)     &kp LG(R)     &kp LG(S)     &kp LG(T)     &kp LG(G)           &none       &kp FS_FL     &kp SS_FL     &kp SMENU       &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none     &kp LS(LG(Z))   &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)           &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
