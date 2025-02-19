@@ -35,15 +35,16 @@
               bindings = <&kp>, <&kp>;
          };
 
-   search: zed_em_kay {
-               compatible = "zmk,behavior-macro";
-               #binding-cells = <0>;
-               bindings
-                   = <&macro_press &kp LSHFT>
-                   , <&macro_tap &kp Z &kp M &kp K>
-                   , <&macro_release &kp LSHFT>
-                   ;
-           };
+        search: search_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp ESC>
+                , <&macro_press &kp LCMD>
+                , <&macro_tap &kp E>
+                , <&macro_release &kp LCMD>
+                ;
+        };
     };
 
     keymap {
