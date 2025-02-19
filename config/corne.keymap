@@ -20,8 +20,8 @@
 #define PREV  LG(LBKT)
 #define NEXT  LG(RBKT)
 #define CYCLE LG(GRAVE)
-#define ZIN    LG(EQUAL)
-#define ZOUT   LG(MINUS)
+#define ZIN   LG(EQUAL)
+#define ZOUT  LG(MINUS)
 
 / {
 
@@ -35,7 +35,7 @@
               bindings = <&kp>, <&kp>;
          };
 
-        search: macro {
+        search: search {
              compatible = "zmk,behavior-macro";
              #binding-cells = <0>;
              bindings = <&kp ESC>, <&kp LCMD E>;
