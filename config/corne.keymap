@@ -32,7 +32,6 @@
 
 
 / {
-
     behaviors {
          hm: home_row_mod {
               compatible = "zmk,behavior-hold-tap";
