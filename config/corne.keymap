@@ -8,12 +8,11 @@
 #define BAS 0
 #define NAV 1
 #define NUM 2
-#define SYM 3
-#define JAV 4
-#define MOU 5
-#define MED 6
-#define EDT 7
-#define SCR 8
+#define JAV 3
+#define MOU 4
+#define MED 5
+#define EDT 6
+#define SCR 7
 
 #define h(n)  LS(LC(LA(LG(n))))
 #define BACK  LG(LBRC)
@@ -60,13 +59,13 @@
                 display-name = "Base";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y        &kp SEMI       &none
+     &kp GRAVE       &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y        &kp SEMI     &kp QUOTE
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
       &kp ESC     &hm LSHFT A   &hm LCTRL R    &hm LALT S    &hm LGUI T    &lt MOU G         &lt MED M     &hm RGUI N    &hm RALT E   &hm RCTRL I   &hm RSHFT O     &kp RET
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-      &sl SCR        &kp Z         &kp X         &kp D         &kp C         &kp V             &kp K         &kp H       &kp COMMA      &kp DOT       &kp FSLH       &none
+    &kp &kp BSLH     &kp Z         &kp X         &kp D         &kp C         &kp V             &kp K         &kp H       &kp COMMA      &kp DOT       &kp FSLH      &sl SCR
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                &mo EDT       &mo NAV     &lt JAV TAB       &lt SYM BSPC &lt NUM SPACE     &none                                           >;};
+                                                &mo EDT       &mo NAV     &lt JAV TAB         &kp BSPC   &lt NUM SPACE     &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             NAV {
@@ -95,28 +94,15 @@
                                                  &none         &none         &none             &none         &none         &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
-            SYM {
-                display-name = "Symbol";
-                bindings = <
-// -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS           &none         &none         &none         &none         &none         &none
-// -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET     &kp MINUS           &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &trans
-// -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none        &kp BSLH      &kp EXCL      &kp AT        &kp HASH     &kp UNDER           &none         &none         &none         &none         &none         &none
-// -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                 &none        &kp SQT       &kp DQT            &none         &none         &none                                           >;};
-//                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
-
             JAV {
-                display-name = "Javascript";
+                display-name = "JavaScript";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none        &kp SEMI     &kp COLON       &none         &none
+       &none         &none         &none         &none         &none         &none            &kp PLUS      &kp PIPE      &kp SEMI     &kp COLON       &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp LSHFT     &kp LCTRL      &kp LALT      &kp LGUI       &none             &none        &kp LPAR      &kp RPAR     &kp EQUAL       &kp GT        &trans
+       &none       &kp LSHFT     &kp LCTRL      &kp LALT      &kp LGUI       &none           &kp MINUS      &kp LPAR      &kp RPAR     &kp EQUAL       &kp GT        &trans
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none        &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT       &none
+       &none         &none         &none         &none         &none         &none           &kp UNDER      &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
                                                  &none         &none         &none             &trans        &trans        &trans                                          >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
