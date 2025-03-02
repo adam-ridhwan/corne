@@ -9,8 +9,8 @@
 #define NAV 1
 #define NUM 2
 #define SYM 3
-#define FUN 4
-#define JAV 5
+#define JAV 4
+#define FUN 5
 #define MOU 6
 #define MED 7
 #define EDT 8
@@ -87,7 +87,7 @@
                 display-name = "Number";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         LG(N1)        LG(N2)        LG(N3)        LG(N4)        LG(N5)            LG(N6)        LG(N7)        LG(N8)        LG(N9)        LG(N0)         &none
+       &none       &kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)    &kp LG(N5)        &kp LG(N6)    &kp LG(N7)    &kp LG(N8)    &kp LG(N9)    &kp LG(N0)         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
     &caps_word    &hm LSHFT N1  &hm LCTRL N2  &hm LALT N3   &hm LGUI N4      &kp N5            &kp N6     &hm RGUI N7   &hm RALT N8   &hm RCTRL N9  &hm RSHFT N0     &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
