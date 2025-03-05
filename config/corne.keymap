@@ -62,13 +62,13 @@
                 display-name = "Base";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-     &kp GRAVE       &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y        &kp SEMI     &kp MINUS
+       &none         &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-      &kp PIPE    &hm LSHFT A   &hm LCTRL R    &hm LALT S    &hm LGUI T      &kp G             &kp M       &hm RGUI N    &hm RALT E   &hm RCTRL I   &hm RSHFT O     &kp QUOT
+      &kp ESC     &hm LSHFT A   &hm LCTRL R    &hm LALT S    &hm LGUI T      &kp G             &kp M       &hm RGUI N    &hm RALT E   &hm RCTRL I   &hm RSHFT O     &kp RET
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-    &lt SCR BSLH     &kp Z         &kp X         &kp D         &kp C         &kp V             &kp K         &kp H       &kp COMMA      &kp DOT       &kp FSLH      &mo MED
+      &mo SCR        &kp Z         &kp X         &kp D         &kp C         &kp V             &kp K         &kp H       &kp COMMA      &kp DOT       &kp FSLH      &mo MED
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                &mo EDT     &lt NAV ESC   &lt JAV TAB       &lt SYM BSPC &lt NUM SPACE  &lt FUN RET                                        >;};
+                                                &mo EDT       &mo NAV     &lt JAV TAB       &lt SYM BSPC &lt NUM SPACE  &lt FUN RET                                        >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             NAV {
@@ -77,7 +77,7 @@
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none        &kp h(L)      &kp h(W)      &kp h(F)      &kp h(P)      &kp h(B)         &kp CYCLE      &kp HOME       &kp UP       &kp END       &kp ZOUT      &kp ZIN
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp LSHFT     &kp LCTRL     &kp LALT       &kp LGUI      &kp h(G)          &kp PGUP      &kp LEFT      &kp DOWN     &kp RIGHT      &kp RET        &none
+       &none       &kp LSHFT     &kp LCTRL     &kp LALT       &kp LGUI      &kp h(G)          &kp PGUP      &kp LEFT      &kp DOWN     &kp RIGHT       &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none        &kp h(Z)      &kp h(X)      &kp h(D)      &kp h(C)      &kp h(V)          &kp PGDN      &kp BACK      &kp FWRD      &kp PREV      &kp NEXT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
@@ -88,37 +88,37 @@
                 display-name = "Number";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-      &kp CAPS     &kp g(N1)     &kp g(N2)     &kp g(N3)     &kp g(N4)     &kp g(N5)         &kp g(N6)     &kp g(N7)     &kp g(N8)     &kp g(N9)     &kp g(N0)       &none
+       &none         &none         &kp N7        &kp N8        &kp N9        &none             &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-    &caps_word    &hm LSHFT N1  &hm LCTRL N2  &hm LALT N3   &hm LGUI N4      &kp N5            &kp N6     &hm RGUI N7   &hm RALT N8   &hm RCTRL N9  &hm RSHFT N0     &none
+       &none       &caps_word      &kp N4        &kp N5        &kp N6        &none             &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+       &none        &kp CAPS       &kp N1        &kp N2        &kp N3        &none             &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                 &none         &none         &none             &none         &none         &none                                           >;};
+                                                 &none         &kp N0        &none             &none         &none         &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             SYM {
                 display-name = "Symbol";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE       &none             &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none     &hm LSHFT EXCL &hm LCTRL AT &hm LALT POUND &hm LGUI DLLR  &kp PRCNT         &kp CARET   &hm RGUI AMPS &hm RALT STAR   &kp RCTRL     &kp RSHFT       &none
+       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET       &none             &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+       &none       &kp BSLH       &kp EXCL       &kp AT      &kp POUND       &none             &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                 &none         &none         &none             &none         &none         &none                                           >;};
+                                                 &none        &kp QUOT      &kp DQOT           &none         &none         &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             JAV {
                 display-name = "JavaScript";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none        &kp LBKT      &kp RBKT       &none         &none         &none
+       &none         &none         &none         &none         &none         &none             &none         &none       &kp COLON      &kp SEMI       &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none       &kp LSHFT     &kp LCTRL      &kp LALT      &kp LGUI       &none             &none        &kp LPAR      &kp RPAR     &kp EQUAL       &kp GT        &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none        &kp LBRC      &kp RBRC       &none         &none         &none
+       &none         &none         &none         &none         &none         &none             &none        &kp LBRC      &kp RBRC      &kp LBKT      &kp RBKT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
                                                  &none         &none         &none             &trans        &trans        &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
@@ -127,11 +127,11 @@
                 display-name = "Function";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+       &none         &none         &kp F7        &kp F8        &kp F9       &kp F12            &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-      &kp F12     &hm LSHFT F1  &hm LCTRL F2  &hm LALT F3   &hm LGUI F4      &kp F5            &kp F6     &hm RGUI F7   &hm RALT F8   &hm RCTRL F9 &hm RSHFT F10    &kp F11
+       &none         &none         &kp F4        &kp F5        &kp F6       &kp F11            &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &none
+       &none         &none         &kp F1        &kp F2        &kp F3       &kp F10            &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
                                                  &none         &none         &none             &trans        &trans        &trans                                          >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
