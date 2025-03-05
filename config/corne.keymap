@@ -101,13 +101,13 @@
                 display-name = "Symbol";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE       &none             &none         &none         &none         &none         &none         &none
+       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS            &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET       &none             &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
+       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET     &kp MINUS            &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp BSLH       &kp EXCL       &kp AT      &kp POUND       &none             &none         &none         &none         &none         &none         &none
+       &none       &kp BSLH       &kp EXCL       &kp AT      &kp POUND     &kp UNDER            &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                 &none        &kp QUOT      &kp DQOT           &none         &none         &none                                           >;};
+                                                 &none        &kp QUOT      &kp DQT           &none         &none         &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             JAV {
