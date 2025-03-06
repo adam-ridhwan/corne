@@ -101,20 +101,20 @@
                 display-name = "Symbol";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS            &none         &none         &none         &none         &none         &none
+       &none       &kp TILDE      &kp AMPS      &kp STAR      &kp PIPE      &kp PLUS           &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET     &kp MINUS            &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
+       &none       &kp GRAVE      &kp DLLR     &kp PRCNT     &kp CARET     &kp MINUS           &none        &kp RGUI      &kp RALT     &kp RCTRL     &kp RSHFT       &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none       &kp BSLH       &kp EXCL       &kp AT      &kp POUND     &kp UNDER            &none         &none         &none         &none         &none         &none
+       &none       &kp BSLH       &kp EXCL       &kp AT      &kp POUND     &kp UNDER           &none         &none         &none         &none         &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-                                                 &none        &kp QUOT      &kp DQT             &none         &none         &none                                           >;};
+                                                 &none         &none         &none             &none         &none         &none                                           >;};
 //                                          |-------------|-------------|-------------|   |-------------|-------------|-------------|
 
             JAV {
                 display-name = "JavaScript";
                 bindings = <
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
-       &none         &none         &none         &none         &none         &none             &none         &none       &kp COLON      &kp SEMI       &none         &none
+       &none         &none         &none         &none         &none         &none            &kp DQT       &kp QUOT     &kp COLON      &kp SEMI       &none         &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
        &none       &kp LSHFT     &kp LCTRL      &kp LALT      &kp LGUI       &none             &none        &kp LPAR      &kp RPAR     &kp EQUAL       &kp GT        &none
 // -------------|-------------|-------------|-------------|-------------|-------------|   |-------------|-------------|-------------|-------------|-------------|-------------|
